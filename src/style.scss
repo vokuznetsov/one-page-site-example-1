@@ -1,46 +1,39 @@
 @import "~bootstrap/scss/bootstrap";
 
-h1 {
-  background-color: yellow;
-  color: black;
+img {
+  width: 100%;
+  height: auto;
 }
 
 .App {
   text-align: center;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+// placeholder
+%img-tag-fitter {
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: 2990px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  @include media-breakpoint-down(lg) { 
+    background-size: cover;
+    height: 1100px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wrapper {
+  @extend %img-tag-fitter;
+  background-image: url('./static/images/bg-hero.jpg');
 }
 
-.App-link {
-  color: #61dafb;
+.section {
+  padding-top: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  width: 15%;
+  padding-left: 70px;
 }
-
