@@ -7,6 +7,11 @@ img {
   height: auto;
 }
 
+span {
+  font-size: 11vw;
+  line-height: 0.65em;
+}
+
 // placeholder
 %img-tag-fitter {
   background-repeat: no-repeat;
@@ -22,6 +27,12 @@ img {
 
 // classes
 .App {
+  font: normal 62.5% "proxima-nova", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #666666;
+  min-height: 100%;
+  background: #fff;
+
   text-align: center;
   overflow-y: auto;
   overflow-x: hidden;
@@ -48,9 +59,17 @@ img {
 
 .place {
   color: white;
-  font-size: 18vw;
+  font-size: 20vw;
   font-style: italic;
   font-weight: 600;
   line-height: 0.72em;
   text-align: left;
+  display: inline;
+}
+
+// id
+#trek-data {
+  font-size: 3vw;
+  margin-left: -45%;
+  margin-top: 7%;
 }
