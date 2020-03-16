@@ -1,20 +1,20 @@
 import React from 'react';
-import logo from './static/images/logo.png'
+import Logo from './modules/Logo';
 
-function App() {
-  return (
-    <div className="App">
-      <div className="wrapper">
-        <div className="section">
-          <h1 className="logo">
-            <a href="/">
-              <img src={logo} alt='Circles Co.'></img>
-            </a>
-          </h1>
+
+class App extends React.Component {
+
+  render() {
+    return (
+      <div className="App" >
+        <div className="fluid-container">
+          <div className="row wrapper">
+            <Logo />
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
