@@ -59,7 +59,6 @@ span {
 
 .place {
   color: white;
-  font-size: 20vw;
   font-style: italic;
   font-weight: 600;
   line-height: 0.72em;
@@ -68,6 +67,15 @@ span {
 }
 
 // id
+#lake {
+  font-size: 11vw;
+}
+
+#tahoe {
+  @extend .ml-1-neg-vw;
+  font-size: 20vw;
+}
+
 #trek-data {
   font-size: 3vw;
   margin-left: -45%;
