@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from './modules/Logo';
-import Place from './modules/Place';
+import Logo from './modules/logo/Logo';
+import Place from './modules/place/Place';
 
 
 class App extends React.Component {

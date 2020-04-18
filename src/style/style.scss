@@ -2,6 +2,11 @@
 @import "./util.scss";
 
 // tags
+body {
+  font-weight: 400;
+  font-family: "adelle-condensed", Georgia, "Times New Roman", sans-serif;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -27,8 +32,6 @@ span {
 
 // classes
 .App {
-  font: normal 62.5% "proxima-nova", Helvetica, Arial, sans-serif;
-  font-weight: 400;
   color: #666666;
   min-height: 100%;
   background: #fff;
@@ -80,4 +83,19 @@ span {
   font-size: 3vw;
   margin-left: -45%;
   margin-top: 7%;
+}
+
+#date {
+  @extend .justify-content-center;
+  @extend .text-left;
+  color: white;
+  font-weight: 300 !important;
+}
+
+#date h3 {
+  font-size: 5rem;
+}
+
+#date h4 {
+  font-size: 4rem;
 }
