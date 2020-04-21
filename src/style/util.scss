@@ -13,10 +13,3 @@
 .ml-1-neg-vw {
   margin-left: -1vw;
 }
-
-.center {
-  @extend .d-flex;
-  @extend .flex-column;
-  text-align: center;
-  justify-content: center;
-}

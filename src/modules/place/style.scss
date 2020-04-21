@@ -1,16 +1,13 @@
-// @import "../../style/style.scss";
+#date {
+    text-align: left;
+    color: white;
+    font-weight: 300;
+}
 
-// #date {
-//     @extend .justify-content-center;
-//     @extend .text-left;
-//     color: white;
-//     font-weight: 300 !important;
-// }
+#date h3 {
+    font-size: 5rem;
+}
 
-// #date h3 {
-//     font-size: 5rem;
-// }
-
-// #date h4 {
-//     font-size: 4rem;
-// }
+#date h4 {
+    font-size: 4rem;
+}

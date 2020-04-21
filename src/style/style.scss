@@ -47,19 +47,6 @@ span {
   margin: auto;
 }
 
-.section {
-  @extend .pt-6-vw;
-  width: 88%;
-  margin: 0 auto;
-  flex-basis: auto;
-  flex-grow: 0;
-}
-
-.logo {
-  width: 10%;
-  margin-left: 6vw;
-}
-
 .place {
   color: white;
   font-style: italic;
@@ -83,19 +70,4 @@ span {
   font-size: 3vw;
   margin-left: -45%;
   margin-top: 7%;
-}
-
-#date {
-  @extend .justify-content-center;
-  @extend .text-left;
-  color: white;
-  font-weight: 300 !important;
-}
-
-#date h3 {
-  font-size: 5rem;
-}
-
-#date h4 {
-  font-size: 4rem;
 }
