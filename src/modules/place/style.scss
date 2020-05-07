@@ -1,3 +1,21 @@
+.serif {
+    //font-family: "adelle-condensed", Georgia, "Times New Roman", sans-serif;
+    font-family: "Merriweather", Georgia, "Times New Roman", sans-serif;
+}
+
+.place {
+    @extend .serif;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 0.76em;
+}
+
+#lake {
+    font-size: 11vw;
+    padding-left: 0.15em;
+}
+
 #date {
     text-align: left;
     color: white;
@@ -5,9 +23,17 @@
 }
 
 #date h3 {
-    font-size: 5rem;
+    padding-top: 3%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.2rem;
 }
 
 #date h4 {
-    font-size: 4rem;
+    font-size: 2rem;
+}
+
+#tahoe {
+    font-size: 20vw;
 }

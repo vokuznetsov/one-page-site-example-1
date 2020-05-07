@@ -3,18 +3,13 @@
 
 // tags
 body {
-  font-weight: 400;
-  font-family: "adelle-condensed", Georgia, "Times New Roman", sans-serif;
+  font-size: 4vw;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 }
 
 img {
   width: 100%;
   height: auto;
-}
-
-span {
-  font-size: 11vw;
-  line-height: 0.65em;
 }
 
 // placeholder
@@ -47,25 +42,8 @@ span {
   margin: auto;
 }
 
-.place {
-  color: white;
-  font-style: italic;
-  font-weight: 600;
-  line-height: 0.72em;
-  text-align: left;
-  display: inline;
-}
 
 // id
-#lake {
-  font-size: 11vw;
-}
-
-#tahoe {
-  @extend .ml-1-neg-vw;
-  font-size: 20vw;
-}
-
 #trek-data {
   font-size: 3vw;
   margin-left: -45%;
