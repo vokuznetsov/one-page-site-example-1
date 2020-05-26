@@ -1,0 +1,24 @@
+@import "../../style/util.scss";
+
+%color {
+    color: white;
+}
+
+.trek-gateway {
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+#header {
+    @extend %color;
+    text-align: left;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+#description {
+    margin-top: 2.5em;
+    @extend %color;
+    text-align: justify;
+    font-size: 1.7rem;
+}
