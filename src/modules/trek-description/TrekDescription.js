@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.scss'
 import * as consts from './constants'
+import guy from '../../static/images/guy.png'
 
 class TrekDescription extends React.Component {
     render() {
@@ -14,8 +15,8 @@ class TrekDescription extends React.Component {
                         {consts.DESCRIPTION}
                     </div>
                 </div>
-                <div className="col">
-
+                <div className="col" id='guy'>
+                    <img src={guy} alt='Video'></img>
                 </div>
             </div>
         )

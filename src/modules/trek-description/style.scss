@@ -6,7 +6,8 @@
 
 .trek-gateway {
     margin-top: 2em;
-    margin-left: 3em;
+    padding-left: 3em;
+    width: 30%;
 }
 
 #header {
@@ -16,9 +17,16 @@
     font-style: italic;
 }
 
-#description {
+.trek-gateway #description {
     margin-top: 2.5em;
     @extend %color;
     text-align: justify;
-    font-size: 1.7rem;
+    font-size: 0.35em;
+    padding-right: 9%;
+}
+
+#guy {
+    min-width: 200px;
+    width: 70%;
+    padding-top: 1em;
 }
